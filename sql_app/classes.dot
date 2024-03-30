@@ -1,0 +1,6 @@
+pidigraph "classes" {
+rankdir=BT
+charset="utf-8"
+"sql_app.models.Item" [color="black", fontcolor="black", label=<{Item|description<br ALIGN="LEFT"/>id<br ALIGN="LEFT"/>owner<br ALIGN="LEFT"/>owner_id<br ALIGN="LEFT"/>title<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"sql_app.models.User" [color="black", fontcolor="black", label=<{User|email<br ALIGN="LEFT"/>hashed_password<br ALIGN="LEFT"/>id<br ALIGN="LEFT"/>is_active<br ALIGN="LEFT"/>items<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+}
